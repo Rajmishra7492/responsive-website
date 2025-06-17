@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">BlogSpace</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="articles.html">Articles</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="mobile-menu" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" placeholder="Search articles...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                </ul>
+            </div>
+
+            <div class="recent-posts">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Getting Started with CSS Grid</a></li>
+                    <li><a href="#">Responsive Design Tips</a></li>
+                    <li><a href="#">Modern Web Development</a></li>
+                </ul>
+            </div>
+
+            <div class="tags">
+                <h3>Tags</h3>
+                <div class="tag-cloud">
+                    <span class="tag">CSS</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Design</span>
+                    <span class="tag">Web</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="blog-grid">
+                <!-- Blog Card 1 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/400" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 15, 2024</span>
+                        <h2>Understanding CSS Grid Layout</h2>
+                        <p>Learn how to create complex layouts with CSS Grid, the powerful two-dimensional layout system.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 2 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/401" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 14, 2024</span>
+                        <h2>Responsive Design Best Practices</h2>
+                        <p>Discover the essential techniques for creating websites that work beautifully on all devices.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 3 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/402" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 13, 2024</span>
+                        <h2>Modern JavaScript Features</h2>
+                        <p>Explore the latest JavaScript features that are changing how we write web applications.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 4 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/403" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 12, 2024</span>
+                        <h2>Web Performance Optimization</h2>
+                        <p>Learn how to make your website faster and more efficient with these proven techniques.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 5 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/404" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 11, 2024</span>
+                        <h2>CSS Flexbox Mastery</h2>
+                        <p>Master the art of flexible layouts with CSS Flexbox, from basics to advanced techniques.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 6 -->
+                <article class="blog-card">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/600/405" alt="Blog post thumbnail">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">March 10, 2024</span>
+                        <h2>Web Accessibility Guide</h2>
+                        <p>Make your website accessible to everyone with these essential accessibility guidelines.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
