@@ -12,9 +12,4 @@ This project is a fully responsive webpage built using modern CSS techniques inc
 
 ## Tech Stack
 - HTML
-- CSS ]
-
-## Screenshots
-(Add screenshots or screen recordings here)
-
----
+- CSS
